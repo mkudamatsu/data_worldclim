@@ -1,2 +1,1 @@
-# data_worldclim
-This repository downloads and clean the World Clim data (version 2) for monthly average temperature and precipitation
+This repository downloads and clean [the World Clim data (version 2)](http://worldclim.org/version2) ([Fick and Hijmans (2017)](https://doi.org/10.1002/joc.5086)) for monthly average temperature and precipitation.
