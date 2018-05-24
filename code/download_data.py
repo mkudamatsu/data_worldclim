@@ -23,13 +23,13 @@ def main():
             url = "http://biogeo.ucdavis.edu/data/worldclim/v2.0/tif/base/wc2.0_30s_" + var + ".zip"
             downloaded_zip = "../temp/" + url[-8:]
             # Process
-            # download_data(url, downloaded_zip)
+            download_data(url, downloaded_zip)
 
             print "Extract all files" # Extracting only necessary files (the .extract() function) does not work. So we extract all and then delete those unnecessary.
             # Setting input and output
             input_zip = downloaded_zip
             outdir = "../orig/"
-            # uncompress_zip(input_zip, outdir)
+            uncompress_zip(input_zip, outdir)
 
             # Move the Readme file to the /docs folder
             readme = "readme.txt"
