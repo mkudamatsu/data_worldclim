@@ -39,7 +39,7 @@ def main():
         print "Deleting the zip file and the temporary file directory"
         for file in os.listdir("../temp/"):
             print file
-            os.remove("../temp/"+file)        # os.rm(dowloaded_zip)
+            os.remove("../temp/"+file)
         os.rmdir("../temp/")
 
         print "All done."
